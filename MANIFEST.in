@@ -1,2 +1,3 @@
 include pyThorlabsKCubeKPC101/graphics/*
 include pyThorlabsKCubeKPC101/*.json
+include requirements_strict.txt
