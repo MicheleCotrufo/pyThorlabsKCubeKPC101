@@ -1,9 +1,9 @@
 # pyThorlabsKCubeKPC101
 
-```pyThorlabsKCubeKPC101``` is a Python library/GUI interface to control the  K-Cube® Piezo Controller and Strain Gauge Reader *KPC101* from Thorlabs.  The package is composed of two parts, a
-low-level driver to perform basic operations, and a high-level GUI, written with PyQt5, which can be easily embedded into other GUIs. The low-level driver can b be used as stand-alone libraryis.
+```pyThorlabsKCubeKPC101``` is a Python library/GUI interface to control the  K-Cube® Piezo Controller and Strain Gauge Reader **KPC101** from Thorlabs.  The package is composed of two parts: a
+low-level driver to perform basic operations, and a high-level GUI, written with PyQt5, which can be easily embedded into other GUIs. The low-level driver can be used as stand-alone library.
 
-The interface can work either as a stand-alone application (either via the high-level GUI or the low-level driver), or as a module of [ergastirio]([https://github.com/qpit/thorlabs_apt](https://github.com/MicheleCotrufo/ergastirio)).
+The interface can work either as a stand-alone application (via either the high-level GUI or the low-level driver), or as a module of [ergastirio]([https://github.com/qpit/thorlabs_apt](https://github.com/MicheleCotrufo/ergastirio)).
 
 *Note:* so far the code has only been tested with the translation stage NFL5DP20S connected to the KPC101.
 
@@ -32,7 +32,7 @@ pip install "PyQt5>=5.15.6"
 pip install "pyqtgraph>=0.12.4"
 pip install numpy
 ```
-```
+
 ## Usage via the low-level driver
 
 TO-DO
