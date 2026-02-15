@@ -1,0 +1,2 @@
+include pyThorlabsKCubeKPC101/graphics/*
+include pyThorlabsKCubeKPC101/*.json
